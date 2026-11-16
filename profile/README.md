@@ -44,10 +44,10 @@ Cyber ICE Box is two products. The laboratory works on its own. The platform r
 
 ## Contact
 
-| | |
-|---|---|
-| Questions | contact@cybericebox.com |
-| Vulnerabilities | security@cybericebox.com, see the [security policy](https://github.com/cybericebox/.github/blob/main/SECURITY.md) |
+- Questions: contact@cybericebox.com
+- Vulnerabilities: security@cybericebox.com ([security policy](https://github.com/cybericebox/.github/blob/main/SECURITY.md))
+
+---
 
 Supported by the V. V. Popovskyy Department of Infocommunication Engineering, Kharkiv National University of Radio
 Electronics. Licensed under Apache-2.0.
