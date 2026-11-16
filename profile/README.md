@@ -38,7 +38,11 @@ Cyber ICE Box is two products. The laboratory works on its own. The platform r
 | Repository | What it is |
 |---|---|
 | [test-exercises](https://github.com/cybericebox/test-exercises) | Example tasks, ready to import |
-| [docs](https://github.com/cybericebox/docs) | Documentation: the laboratory, the platform and how to install them |
+| [docs](https://github.com/cybericebox/docs) | The source of the documentation site |
+
+## Documentation
+
+[docs.cybericebox.com](https://docs.cybericebox.com/en/): the laboratory, the platform and how to install them. In Ukrainian and English.
 
 ## Contact
 
