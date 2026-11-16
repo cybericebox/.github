@@ -3,8 +3,6 @@
 A cyber range for training and CTF competitions: auto-checked challenges, isolated labs and a live scoreboard in one place.
 The code is open, so you can run it on your own servers.
 
-**Site:** [cybericebox.com](https://cybericebox.com)
-
 ## What it gives you
 
 - **A separate lab for every challenge.** Each challenge runs in its own isolated network with its own hosts, switches and
