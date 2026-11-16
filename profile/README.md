@@ -17,7 +17,7 @@ The code is open, so you can run it on your own servers.
 
 ## Repositories
 
-Cyber ICE Box is two products. Each works without the other.
+Cyber ICE Box is two products. The laboratory works on its own. The platform runs on top of the laboratory.
 
 ### Laboratory
 
@@ -30,7 +30,6 @@ Cyber ICE Box is two products. Each works without the other.
 | Repository | What it is |
 |---|---|
 | [daemon](https://github.com/cybericebox/daemon) | The backend: users, events, tasks, the catalog |
-| [main-frontend](https://github.com/cybericebox/main-frontend) | The landing site |
 | [id-frontend](https://github.com/cybericebox/id-frontend) | Sign-in, registration and account settings |
 | [admin-frontend](https://github.com/cybericebox/admin-frontend) | The platform panel |
 | [exercises-frontend](https://github.com/cybericebox/exercises-frontend) | The task catalog |
@@ -43,8 +42,6 @@ Cyber ICE Box is two products. Each works without the other.
 | [test-exercises](https://github.com/cybericebox/test-exercises) | Example tasks, ready to import |
 | [docs](https://github.com/cybericebox/docs) | Documentation: the laboratory, the platform and how to install them |
 
-Deployment tooling, the task collection and some newer components are developed in private repositories.
-
 ## Contact
 
 | | |
@@ -52,5 +49,5 @@ Deployment tooling, the task collection and some newer components are developed 
 | Questions | contact@cybericebox.com |
 | Vulnerabilities | security@cybericebox.com, see the [security policy](https://github.com/cybericebox/.github/blob/main/SECURITY.md) |
 
-Created at the V. V. Popovskyy Department of Infocommunication Engineering, Kharkiv National University of Radio
+Supported by the V. V. Popovskyy Department of Infocommunication Engineering, Kharkiv National University of Radio
 Electronics. Licensed under Apache-2.0.
