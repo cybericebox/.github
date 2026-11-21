@@ -1,0 +1,61 @@
+name: Bug report
+description: Something does not work as documented.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not report security vulnerabilities here. See the [security policy](https://github.com/cybericebox/.github/blob/main/SECURITY.md).
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The release tag or commit you run, for example v1.2.3.
+    validations:
+      required: true
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      description: What the bug is in. If you file this in a repository, choose that repository.
+      options:
+        - Laboratory (isolated networks, VPN, browser access)
+        - Platform backend (daemon)
+        - Sign-in and account (id-frontend)
+        - Platform panel (admin-frontend)
+        - Task catalog (exercises-frontend)
+        - Event site (event-frontend)
+        - Landing site (main-frontend)
+        - Example tasks (test-exercises)
+        - Documentation
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Relevant log lines or error messages. Remove passwords, tokens, keys and personal data before you paste.
+      render: shell
