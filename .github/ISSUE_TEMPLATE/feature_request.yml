@@ -1,0 +1,51 @@
+name: Feature request
+description: Propose a new feature or a change.
+title: "[Feature]: "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The release tag or commit you use now, if any.
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      description: What the change is for. If you file this in a repository, choose that repository.
+      options:
+        - Laboratory (isolated networks, VPN, browser access)
+        - Platform backend (daemon)
+        - Sign-in and account (id-frontend)
+        - Platform panel (admin-frontend)
+        - Task catalog (exercises-frontend)
+        - Event site (event-frontend)
+        - Landing site (main-frontend)
+        - Example tasks (test-exercises)
+        - Documentation
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What you are trying to do and what stops you.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: The proposal
+      description: What you would like to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives
+      description: Other ways you considered or work-arounds you use.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Extra context
+      description: Anything else that helps. Remove passwords, tokens, keys and personal data before you paste.

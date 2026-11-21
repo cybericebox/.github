@@ -2,7 +2,7 @@
 
 ## Reporting a vulnerability
 
-Write to **security@cybericebox.com**. Please do not open a public issue.
+Write to **security@cybericebox.com**, or use private vulnerability reporting: the **Security** tab of the affected repository, then **Report a vulnerability**. Please do not open a public issue.
 
 Tell us:
 
@@ -22,4 +22,4 @@ vulnerability: write to contact@cybericebox.com.
 
 ## Supported versions
 
-Fixes go into the latest release of each repository.
+Security fixes are released on the newest release line of each repository. Older release lines are not patched: upgrade to the newest release.
