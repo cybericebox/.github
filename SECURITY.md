@@ -22,4 +22,6 @@ vulnerability: write to contact@cybericebox.com.
 
 ## Supported versions
 
-Security fixes are released on the newest release line of each repository. Older release lines are not patched: upgrade to the newest release.
+Security fixes are released as patch versions on the three newest minor release lines of each product (the laboratory and the platform each have their own lines). For example, if the newest line is 2.22, then 2.22.x, 2.21.x and 2.20.x are supported. Older lines are not patched: upgrade to a supported line.
+
+The window counts from the first release lines cut under the current release process: laboratory 1.10 and platform 2.20. Earlier releases are not patched.
