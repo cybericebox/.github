@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://docs.cybericebox.com/en/
+    about: Installation and usage guides for the laboratory and the platform.
+  - name: Report a security vulnerability
+    url: https://github.com/cybericebox/.github/blob/main/SECURITY.md
+    about: Do not open a public issue for a vulnerability. Follow the security policy.
+  - name: Other questions
+    url: https://github.com/cybericebox/.github/blob/main/SUPPORT.md
+    about: Where to ask and which repository is what.
