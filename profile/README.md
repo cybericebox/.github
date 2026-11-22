@@ -27,7 +27,7 @@ Cyber ICE Box is two products. The laboratory works on its own. The platform r
 
 | Repository | What it is |
 |---|---|
-| [daemon](https://github.com/cybericebox/daemon) | The backend: users, events, tasks, the catalog |
+| [backend](https://github.com/cybericebox/backend) | The backend: users, events, tasks, the catalog |
 | [id-frontend](https://github.com/cybericebox/id-frontend) | Sign-in, registration and account settings |
 | [admin-frontend](https://github.com/cybericebox/admin-frontend) | The platform panel |
 | [exercises-frontend](https://github.com/cybericebox/exercises-frontend) | The task catalog |

@@ -12,7 +12,7 @@
 | Repository | What it is |
 |---|---|
 | [laboratory](https://github.com/cybericebox/laboratory) | Isolated training networks on Kubernetes: devices, VPN, browser access, checks |
-| [daemon](https://github.com/cybericebox/daemon) | The platform backend: users, events, tasks, the catalog |
+| [backend](https://github.com/cybericebox/backend) | The platform backend: users, events, tasks, the catalog |
 | [id-frontend](https://github.com/cybericebox/id-frontend) | Sign-in, registration and account settings |
 | [admin-frontend](https://github.com/cybericebox/admin-frontend) | The platform panel |
 | [exercises-frontend](https://github.com/cybericebox/exercises-frontend) | The task catalog |
@@ -21,4 +21,4 @@
 | [test-exercises](https://github.com/cybericebox/test-exercises) | Example tasks, ready to import |
 | [docs](https://github.com/cybericebox/docs) | The source of the documentation site |
 
-If you are not sure, open the issue in `daemon` (platform) or `laboratory` (labs and networks); the maintainers will move it.
+If you are not sure, open the issue in `backend` (platform) or `laboratory` (labs and networks); the maintainers will move it.

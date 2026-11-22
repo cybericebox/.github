@@ -20,7 +20,7 @@ body:
       description: What the bug is in. If you file this in a repository, choose that repository.
       options:
         - Laboratory (isolated networks, VPN, browser access)
-        - Platform backend (daemon)
+        - Platform backend
         - Sign-in and account (id-frontend)
         - Platform panel (admin-frontend)
         - Task catalog (exercises-frontend)
